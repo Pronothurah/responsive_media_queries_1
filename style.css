@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  
+}
+
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    display: flex;
+    place-items: center;
+    min-height: 10vh;
+    justify-content: center;
+
+}
+
+.container{
+    max-width: 700px;
+    margin: 50px;
+}
+
+main{
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    gap: 150px;
+
+}
+
+.form-items input[type = "password"],.form-items input[type = "email" ], .form-items input[type = "text"]
+{
+    border: 0;
+    background: white;
+    display: block;
+    margin: 20px 20px ;
+    border: 2px solid hsl(0, 100%, 74%)  ;
+    text-align: left;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    border-radius: none;
+    width: 700px/2-20px;
+}
+
+.right{
+    background-color: white;
+    margin: 30px;
+    width: 90%;
+}
+
+button{
+    background-color: hsl(249, 10%, 26%);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 30px;
+    width: 100%;
+    
+}
+
+.form-items input[type = "submit"]{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.left {
+    color: white ;
+    margin-top: 150px;
+  
+    width: 60%;
+}
+
+.right{
+    padding: 15px 25px;
+    border-radius: 20px;
+    
+}
+
+h2{ 
+  font-size: 30px;
+  margin: 20px 0px 20px;
+  width: 700/2-20px;
+
+}
+
+span{
+    font-size: 10px;
+}
+
+.t_c{
+    color: gray;
+    margin: 10px;
+}
+
+a{
+    color:hsl(0, 100%, 74%)  ;
+}
+
+@media (max-width: 375px) {
+    .container{
+        max-width: 100%;
+    }
+    .form-items input[type = "password"],.form-items input[type = "email" ], .form-items input[type = "text"]{
+    max-width: 100%;
+} 
+
+}
